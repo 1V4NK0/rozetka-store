@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": "123",
+      "name": "Wireless Headphones",
+      "price": 100.99,
+      "category": "Electronics",
+      "image": "./assets/airpods.jpeg"
+    },
+    {
+      "id": "124",
+      "name": "Gaming Mouse",
+      "price": 49.99,
+      "category": "Computers",
+      "image": "./assets/mouse.png"
+    },
+    {
+      "id": "125",
+      "name": "4K Smart TV",
+      "price": 799.99,
+      "category": "Home Appliances",
+      "image": "./assets/tv.png"
+    },
+    {
+      "id": "126",
+      "name": "Running Shoes",
+      "price": 89.99,
+      "category": "Sportswear",
+      "image": "./assets/shoes.png"
+    },
+    {
+      "id": "127",
+      "name": "Electric Kettle",
+      "price": 29.99,
+      "category": "Kitchen Appliances",
+      "image": "./assets/kettle.png"
+    },
+    {
+      "id": "128",
+      "name": "Leather Jacket",
+      "price": 159.99,
+      "category": "Fashion",
+      "image": "./assets/jacket.png"
+    },
+    {
+      "id": "129",
+      "name": "Yoga Mat",
+      "price": 19.99,
+      "category": "Fitness",
+      "image": "./assets/mouse.png"
+    },
+    {
+      "id": "130",
+      "name": "Smartphone",
+      "price": 999.99,
+      "category": "Electronics",
+      "image": "./assets/mouse.png"
+    },
+    {
+      "id": "131",
+      "name": "Laptop",
+      "price": 1249.99,
+      "category": "Computers",
+      "image": "./assets/mouse.png"
+    },
+    {
+      "id": "132",
+      "name": "Blender",
+      "price": 59.99,
+      "category": "Kitchen Appliances",
+      "image": "./assets/mouse.png"
+    },
+    {
+      "id": "133",
+      "name": "Backpack",
+      "price": 39.99,
+      "category": "Accessories",
+      "image": "./assets/mouse.png"
+    },
+    {
+      "id": "134",
+      "name": "Sunglasses",
+      "price": 29.99,
+      "category": "Fashion",
+      "image": "./assets/mouse.png"
+    },
+    {
+      "id": "135",
+      "name": "Mountain Bike",
+      "price": 699.99,
+      "category": "Sports Equipment",
+      "image": "./assets/mouse.png"
+    },
+    {
+      "id": "136",
+      "name": "Waterproof Watch",
+      "price": 249.99,
+      "category": "Accessories",
+      "image": "./assets/mouse.png"
+    },
+    {
+      "id": "137",
+      "name": "Tablet",
+      "price": 499.99,
+      "category": "Electronics",
+      "image": "./assets/mouse.png"
+    },
+    {
+      "id": "138",
+      "name": "Office Chair",
+      "price": 149.99,
+      "category": "Furniture",
+      "image": "./assets/mouse.png"
+    },
+    {
+      "id": "139",
+      "name": "Coffee Maker",
+      "price": 79.99,
+      "category": "Kitchen Appliances",
+      "image": "./assets/mouse.png"
+    },
+    {
+      "id": "140",
+      "name": "Electric Toothbrush",
+      "price": 39.99,
+      "category": "Personal Care",
+      "image": "./assets/mouse.png"
+    },
+    {
+      "id": "141",
+      "name": "Gaming Console",
+      "price": 499.99,
+      "category": "Gaming",
+      "image": "./assets/mouse.png"
+    },
+    {
+      "id": "142",
+      "name": "Desk Lamp",
+      "price": 24.99,
+      "category": "Home Decor",
+      "image": "./assets/mouse.png"
+    }
+  ]
+}
