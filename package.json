@@ -11,8 +11,11 @@
     "server": "json-server items.json --port 2100"
   },
   "dependencies": {
+    "@headlessui/react": "^2.1.8",
+    "@heroicons/react": "^2.1.5",
     "@reduxjs/toolkit": "^2.2.7",
     "css": "^3.0.0",
+    "heroicons": "^2.1.5",
     "json-server": "^1.0.0-beta.2",
     "prettier": "^3.3.3",
     "react": "^18.2.0",
@@ -24,6 +27,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
+    "@tailwindcss/forms": "^0.5.9",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",

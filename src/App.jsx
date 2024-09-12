@@ -1,10 +1,11 @@
 import AppLayout from "./ui/AppLayout";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Error from "./ui/Error";
-import Home from "./ui/Home";
+import Home, { loader as itemsLoader } from "./ui/Home";
 import Cart from "./features/cart/Cart";
 import CreateOrder from "./features/order/CreateOrder";
 import Order from "./features/order/Order";
+import User from "./ui/User";
 function App() {
   const router = createBrowserRouter([
     {
@@ -14,6 +15,7 @@ function App() {
         {
           path: "/",
           element: <Home />,
+          loader: itemsLoader,
         },
         {
           path: "/cart",
@@ -28,6 +30,10 @@ function App() {
           path: "/order/:orderId",
           element: <Order />,
           errorElement: <Error />,
+        },
+        {
+          path: "/user",
+          element: <User />,
         },
       ],
     },
