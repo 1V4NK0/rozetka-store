@@ -5,8 +5,16 @@ import Home, { loader as itemsLoader } from "./ui/Home";
 import Cart from "./features/cart/Cart";
 import CreateOrder from "./features/order/CreateOrder";
 import Order from "./features/order/Order";
-import User from "./ui/User";
+import User from "./features/user/User";
+import ItemView from "./ui/ItemView";
 function App() {
+  //TODO
+  /*
+  1. working search
+  2. access cart
+  3. working categories, when click it shows only items from the category
+   */
+
   const router = createBrowserRouter([
     {
       element: <AppLayout />,
@@ -34,6 +42,10 @@ function App() {
         {
           path: "/user",
           element: <User />,
+        },
+        {
+          path: "/item/:id",
+          element: <ItemView />,
         },
       ],
     },
