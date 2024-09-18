@@ -13,6 +13,7 @@ function App() {
   1. working search
   2. access cart
   3. working categories, when click it shows only items from the category
+  4. sidebar repeating
    */
 
   const router = createBrowserRouter([

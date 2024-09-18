@@ -5,140 +5,140 @@
       "name": "Wireless Headphones",
       "price": 100.99,
       "category": "Electronics",
-      "image": "public/assets/airpods.png"
+      "image": "/assets/airpods.png"
     },
     {
       "id": "124",
       "name": "Gaming Mouse",
       "price": 49.99,
       "category": "Computers",
-      "image": "public/assets/mouse.png"
+      "image": "/assets/mouse.png"
     },
     {
       "id": "125",
       "name": "4K Smart TV",
       "price": 799.99,
       "category": "Home Appliances",
-      "image": "public/assets/tv.png"
+      "image": "/assets/tv.png"
     },
     {
       "id": "126",
       "name": "Running Shoes",
       "price": 89.99,
       "category": "Sportswear",
-      "image": "public/assets/shoes.png"
+      "image": "/assets/shoes.png"
     },
     {
       "id": "127",
       "name": "Electric Kettle",
       "price": 29.99,
       "category": "Kitchen Appliances",
-      "image": "public/assets/kettle.png"
+      "image": "/assets/kettle.png"
     },
     {
       "id": "128",
       "name": "Leather Jacket",
       "price": 159.99,
       "category": "Fashion",
-      "image": "public/assets/jacket.png"
+      "image": "/assets/jacket.png"
     },
     {
       "id": "129",
       "name": "Yoga Mat",
       "price": 19.99,
       "category": "Fitness",
-      "image": "public/assets/mat.png"
+      "image": "/assets/mat.png"
     },
     {
       "id": "130",
       "name": "Smartphone",
       "price": 999.99,
       "category": "Electronics",
-      "image": "public/assets/iphone.png"
+      "image": "/assets/iphone.png"
     },
     {
       "id": "131",
       "name": "Laptop",
       "price": 1249.99,
       "category": "Computers",
-      "image": "public/assets/macbook.png"
+      "image": "/assets/macbook.png"
     },
     {
       "id": "132",
       "name": "Blender",
       "price": 59.99,
       "category": "Kitchen Appliances",
-      "image": "public/assets/blender.png"
+      "image": "/assets/blender.png"
     },
     {
       "id": "133",
       "name": "Backpack",
       "price": 39.99,
       "category": "Accessories",
-      "image": "public/assets/backpack.png"
+      "image": "/assets/backpack.png"
     },
     {
       "id": "134",
       "name": "Sunglasses",
       "price": 29.99,
       "category": "Fashion",
-      "image": "public/assets/sunglasses.png"
+      "image": "/assets/sunglasses.png"
     },
     {
       "id": "135",
       "name": "Mountain Bike",
       "price": 699.99,
       "category": "Sports Equipment",
-      "image": "public/assets/bike.png"
+      "image": "/assets/bike.png"
     },
     {
       "id": "136",
       "name": "Waterproof Watch",
       "price": 249.99,
       "category": "Accessories",
-      "image": "public/assets/watch.png"
+      "image": "/assets/watch.png"
     },
     {
       "id": "137",
       "name": "Tablet",
       "price": 499.99,
       "category": "Electronics",
-      "image": "public/assets/ipad.png"
+      "image": "/assets/ipad.png"
     },
     {
       "id": "138",
       "name": "Office Chair",
       "price": 149.99,
       "category": "Furniture",
-      "image": "public/assets/chair.png"
+      "image": "/assets/chair.png"
     },
     {
       "id": "139",
       "name": "Coffee Maker",
       "price": 79.99,
       "category": "Kitchen Appliances",
-      "image": "public/assets/mouse.png"
+      "image": "/assets/mouse.png"
     },
     {
       "id": "140",
       "name": "Electric Toothbrush",
       "price": 39.99,
       "category": "Personal Care",
-      "image": "public/assets/toothbrush.png"
+      "image": "/assets/toothbrush.png"
     },
     {
       "id": "141",
       "name": "Gaming Console",
       "price": 499.99,
       "category": "Gaming",
-      "image": "public/assets/console.png"
+      "image": "/assets/console.png"
     },
     {
       "id": "142",
       "name": "Desk Lamp",
       "price": 24.99,
       "category": "Home Decor",
-      "image": "public/assets/lamp.png"
+      "image": "/assets/lamp.png"
     }
   ]
 }

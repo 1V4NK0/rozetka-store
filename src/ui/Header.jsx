@@ -10,8 +10,8 @@ function Header() {
   //TODO: ADD OPENING CART FEATURE
   //
   const user = useSelector((state) => state.user);
-  const {isLoggedIn, name} = user
-  console.log(name)
+  const { isLoggedIn, name } = user;
+
   return (
     <header className="fixed w-screen flex bg-green-600 px-6 gap-3 z-10 mb-8 justify-between items-center p-2">
       <Link to="/">
