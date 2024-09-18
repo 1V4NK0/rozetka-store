@@ -5,31 +5,42 @@ import { useSelector } from "react-redux";
 import Sidebar from "./Sidebar";
 import { Link } from "react-router-dom";
 import useDebounce from "../useDebounce";
+import { useState } from "react";
 
 function Home() {
   const list = useLoaderData();
   const query = useSelector((state) => state.search.query);
-  //use debounce for query value NOT for calling a function
   const { debouncedValue, loading } = useDebounce(query, 500);
+  const [selectedCategory, setSelectedCategory] = useState("");
 
-  const filteredList = list.filter((item) =>
+  // Filter by query first
+  const filteredByQuery = list.filter((item) =>
     item.name.toLowerCase().includes(debouncedValue.toLowerCase())
   );
 
-  const noResults = filteredList.length < 1;
+  // Filter the already filteredByQuery list by category if a category is selected
+  const filteredByCategory = filteredByQuery.filter((item) =>
+    selectedCategory ? item.category === selectedCategory : true
+  );
+
+  const noResults = filteredByCategory.length < 1;
 
   return (
     <>
       {loading ? (
-        <h1 className="mt-[150px] text-center text-4xl font-semibold">Loading... 👀</h1>
+        <h1 className="mt-[150px] text-center text-4xl font-semibold">
+          Loading... 👀
+        </h1>
       ) : noResults ? (
-        <h1 className="mt-[150px] text-center text-4xl font-semibold">No results 🙃</h1>
+        <h1 className="mt-[150px] text-center text-4xl font-semibold">
+          No results 🙃
+        </h1>
       ) : (
         <div className="flex">
-          <Sidebar list={list} />
+          <Sidebar list={list} onCategorySelect={setSelectedCategory} />
           <div className="flex-1 flex justify-center mt-[50px]">
             <ul className="grid grid-cols-1 gap-[40px] md:grid-cols-3 sm:grid-cols-2 p-4">
-              {filteredList.map((item) => (
+              {filteredByCategory.map((item) => (
                 <Link key={item.id} to={`/item/${item.id}`}>
                   <Item item={item} />
                 </Link>
@@ -39,25 +50,6 @@ function Home() {
         </div>
       )}
     </>
-
-    // <div className="flex">
-    //   {loading ? (
-    //     <h1 className="mt-[100px]">Loading...</h1>
-    //   ) : (
-    //     <>
-    //       <Sidebar list={list} />
-    //       <div className="flex-1 flex justify-center mt-[50px]">
-    //         <ul className="grid grid-cols-1 gap-[40px] md:grid-cols-3 sm:grid-cols-2 p-4">
-    //           {filteredList.map((item) => (
-    //             <Link key={item.id} to={`/item/${item.id}`}>
-    //               <Item item={item} />
-    //             </Link>
-    //           ))}
-    //         </ul>
-    //       </div>
-    //     </>
-    //   )}
-    // </div>
   );
 }
 

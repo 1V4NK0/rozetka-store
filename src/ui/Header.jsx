@@ -4,17 +4,17 @@ import smallLogo from "../../public/assets/rozetkaSmall.png";
 import SearchBar from "./SearchBar";
 import userIcon from "../../public/assets/user.png";
 import cartIcon from "../../public/assets/cart.png";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { inputUpdate } from "./searchSlice";
 
 function Header() {
-  //TODO: ADD OPENING CART FEATURE
-  //
   const user = useSelector((state) => state.user);
   const { isLoggedIn, name } = user;
+  const dispatch = useDispatch();
 
   return (
     <header className="fixed w-screen flex bg-green-600 px-6 gap-3 z-10 mb-8 justify-between items-center p-2">
-      <Link to="/">
+      <Link to="/" onClick={() => dispatch(inputUpdate(""))}>
         <img
           src={logo}
           alt="Large Logo"

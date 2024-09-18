@@ -4,7 +4,7 @@ import { inputUpdate } from "./searchSlice";
 function SearchBar() {
   const query = useSelector((state) => state.search.query);
   const dispatch = useDispatch();
-  console.log(query);
+
   return (
     <div className="flex ">
       <input

@@ -5,7 +5,7 @@ import { useNavigate } from "react-router";
 export default function Cart() {
   const cart = useSelector(getCart);
   const navigate = useNavigate();
-  const total = cart.reduce((acc, curr) => acc + curr.totalPrice, 0)
+  const total = cart.reduce((acc, curr) => acc + curr.totalPrice, 0);
   if (cart.length < 1) {
     return (
       <h1 className="text-center text-3xl mt-[120px]">
@@ -15,13 +15,15 @@ export default function Cart() {
   }
 
   return (
-    <div className="my-[80px] ">
+    <div className="my-[80px]">
       <ul className="flex flex-col divide-y  ">
         {cart.map((item) => (
           <CartItem item={item} key={item.id} />
         ))}
       </ul>
-      <div className="text-center text-lg mt-[20px] ">Total: {total.toFixed(2)} €</div>
+      <div className="text-center  text-xl font-semibold mt-[20px] ">
+        Total: {total.toFixed(2)} €
+      </div>
       <div className="flex gap-5 justify-center ">
         <button
           onClick={() => navigate("/")}

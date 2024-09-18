@@ -35,9 +35,13 @@ const cartSlice = createSlice({
     decreaseQuantity(state, action) {
       //FINISH
       const item = state.cart.find((item) => item.id === action.payload);
+      if (item.quantity === 1) {
+        // i've tried to delete item if quantity === 0
+        // state.cart.filter((i) => i.id !== item.id);
+        return;
+      }
       item.quantity--;
       item.totalPrice = item.quantity * item.price;
-      if (item.quantity === 0) cartSlice.reducer.deleteItem(state, action);
     },
     //TODO: ADD MORE REDUCERS
   },
