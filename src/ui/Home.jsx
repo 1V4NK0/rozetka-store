@@ -10,16 +10,20 @@ function Home() {
   const list = useLoaderData();
   const query = useSelector((state) => state.search.query);
   //use debounce for query value NOT for calling a function
-  const { debouncedValue, loading } = useDebounce(query, 250);
+  const { debouncedValue, loading } = useDebounce(query, 500);
 
   const filteredList = list.filter((item) =>
     item.name.toLowerCase().includes(debouncedValue.toLowerCase())
   );
 
+  const noResults = filteredList.length < 1;
+
   return (
     <>
       {loading ? (
-        <h1 className="mt-[100px]">Loading...</h1>
+        <h1 className="mt-[150px] text-center text-4xl font-semibold">Loading... 👀</h1>
+      ) : noResults ? (
+        <h1 className="mt-[150px] text-center text-4xl font-semibold">No results 🙃</h1>
       ) : (
         <div className="flex">
           <Sidebar list={list} />
