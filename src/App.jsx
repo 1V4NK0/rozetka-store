@@ -1,5 +1,6 @@
 import AppLayout from "./ui/AppLayout";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { loader as orderLoader } from "./features/order/Order";
 import Error from "./ui/Error";
 import Home, { loader as itemsLoader } from "./ui/Home";
 import Cart from "./features/cart/Cart";
@@ -7,6 +8,8 @@ import CreateOrder from "./features/order/CreateOrder";
 import Order from "./features/order/Order";
 import User from "./features/user/User";
 import ItemView from "./ui/ItemView";
+import { action as createOrder } from "./features/order/CreateOrder";
+
 function App() {
   //TODO
   /*
@@ -34,10 +37,12 @@ function App() {
         {
           path: "/order/new",
           element: <CreateOrder />,
+          action: createOrder,
         },
         {
           path: "/order/:orderId",
           element: <Order />,
+          loader: orderLoader,
           errorElement: <Error />,
         },
         {

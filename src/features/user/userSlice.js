@@ -5,6 +5,8 @@ const initialState = {
   isLoggedIn: false,
   error: "",
   name: "john",
+  username: "",
+  address: "",
 };
 
 const FAKE_USER = {
@@ -24,6 +26,8 @@ const userSlice = createSlice({
         state.user = FAKE_USER;
         state.isLoggedIn = true;
         state.error = "";
+        state.username = FAKE_USER.username
+        state.address = FAKE_USER.address
         state.name = FAKE_USER.name;
         console.log("logged in");
       } else {

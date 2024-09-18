@@ -1,0 +1,310 @@
+{
+  "orders": [
+    {
+      "id": "4b03",
+      "name": "john",
+      "email": "nichesibratan1@GMAIL.COM",
+      "phone": "452345234",
+      "address": "sdfhgdfhd",
+      "cart": [
+        {
+          "id": "130",
+          "name": "Smartphone",
+          "price": 999.99,
+          "category": "Electronics",
+          "image": "/assets/iphone.png",
+          "quantity": 1,
+          "totalPrice": 999.99
+        }
+      ]
+    },
+    {
+      "id": "f067",
+      "name": "sdfgsdf",
+      "email": "supdarknesss@gmail.com",
+      "phone": "2134123",
+      "address": "qwerqwer",
+      "cart": [
+        {
+          "id": "123",
+          "name": "Wireless Headphones",
+          "price": 100.99,
+          "category": "Electronics",
+          "image": "/assets/airpods.png",
+          "quantity": 1,
+          "totalPrice": 100.99
+        }
+      ]
+    },
+    {
+      "id": "26ec",
+      "name": "MICHAEL ",
+      "email": "binance.oneich@gmail.com",
+      "phone": "1234123",
+      "address": "adsfsdfa",
+      "cart": [
+        {
+          "id": "125",
+          "name": "4K Smart TV",
+          "price": 799.99,
+          "category": "Home Appliances",
+          "image": "/assets/tv.png",
+          "quantity": 1,
+          "totalPrice": 799.99
+        }
+      ]
+    },
+    {
+      "id": "e601",
+      "name": "john",
+      "email": "1vancherk3s@gmail.com",
+      "phone": "12341234",
+      "address": "wewkjenrgw",
+      "cart": [
+        {
+          "id": "123",
+          "name": "Wireless Headphones",
+          "price": 100.99,
+          "category": "Electronics",
+          "image": "/assets/airpods.png",
+          "quantity": 1,
+          "totalPrice": 100.99
+        }
+      ]
+    },
+    {
+      "id": "f37a",
+      "name": "john",
+      "email": "binance.oneich@gmail.com",
+      "phone": "432345",
+      "address": "erwertwer",
+      "cart": [
+        {
+          "id": "126",
+          "name": "Running Shoes",
+          "price": 89.99,
+          "category": "Sportswear",
+          "image": "/assets/shoes.png",
+          "quantity": 1,
+          "totalPrice": 89.99
+        }
+      ]
+    },
+    {
+      "id": "96e5",
+      "name": "john",
+      "email": "ansdjkfs@sadf",
+      "phone": "asdfasd",
+      "address": "wqefqwe",
+      "cart": [
+        {
+          "id": "125",
+          "name": "4K Smart TV",
+          "price": 799.99,
+          "category": "Home Appliances",
+          "image": "/assets/tv.png",
+          "quantity": 1,
+          "totalPrice": 799.99
+        }
+      ]
+    },
+    {
+      "id": "f971",
+      "name": "john",
+      "email": "1vancherk3s@gmail.com",
+      "phone": "12341234",
+      "address": "fdfsm asdf",
+      "cart": [
+        {
+          "id": "128",
+          "name": "Leather Jacket",
+          "price": 159.99,
+          "category": "Fashion",
+          "image": "/assets/jacket.png",
+          "quantity": 1,
+          "totalPrice": 159.99
+        }
+      ]
+    },
+    {
+      "id": "24a5",
+      "name": "john",
+      "email": "supdarknesss@gmail.com",
+      "phone": "123123123",
+      "address": "sdfqwefqwe",
+      "cart": [
+        {
+          "id": "127",
+          "name": "Electric Kettle",
+          "price": 29.99,
+          "category": "Kitchen Appliances",
+          "image": "/assets/kettle.png",
+          "quantity": 1,
+          "totalPrice": 29.99
+        }
+      ]
+    },
+    {
+      "id": "2998",
+      "name": "john",
+      "email": "binance.oneich@gmail.com",
+      "phone": "124123412",
+      "address": "wqdfqwefqw",
+      "cart": [
+        {
+          "id": "123",
+          "name": "Wireless Headphones",
+          "price": 100.99,
+          "category": "Electronics",
+          "image": "/assets/airpods.png",
+          "quantity": 1,
+          "totalPrice": 100.99
+        }
+      ]
+    },
+    {
+      "id": "caca",
+      "name": "john",
+      "email": "maznatser@ukr.net",
+      "phone": "7685786",
+      "address": "JHJLBBHH",
+      "cart": [
+        {
+          "id": "128",
+          "name": "Leather Jacket",
+          "price": 159.99,
+          "category": "Fashion",
+          "image": "/assets/jacket.png",
+          "quantity": 1,
+          "totalPrice": 159.99
+        }
+      ]
+    },
+    {
+      "id": "5caa",
+      "name": "john",
+      "email": "maznatser@ukr.net",
+      "phone": "7685786",
+      "address": "JHJLBBHH",
+      "cart": [
+        {
+          "id": "128",
+          "name": "Leather Jacket",
+          "price": 159.99,
+          "category": "Fashion",
+          "image": "/assets/jacket.png",
+          "quantity": 1,
+          "totalPrice": 159.99
+        }
+      ]
+    },
+    {
+      "id": "72c1",
+      "name": "john",
+      "email": "nichesibratan1@GMAIL.COM",
+      "phone": "2423452",
+      "address": "ejknfwekjnrfw",
+      "cart": [
+        {
+          "id": "130",
+          "name": "Smartphone",
+          "price": 999.99,
+          "category": "Electronics",
+          "image": "/assets/iphone.png",
+          "quantity": 1,
+          "totalPrice": 999.99
+        }
+      ]
+    },
+    {
+      "id": "a698",
+      "name": "john",
+      "email": "nichesibratan1@GMAIL.COM",
+      "phone": "2423452",
+      "address": "ejknfwekjnrfw",
+      "cart": [
+        {
+          "id": "130",
+          "name": "Smartphone",
+          "price": 999.99,
+          "category": "Electronics",
+          "image": "/assets/iphone.png",
+          "quantity": 1,
+          "totalPrice": 999.99
+        }
+      ]
+    },
+    {
+      "id": "f848",
+      "name": "john",
+      "email": "maznatser@ukr.net",
+      "phone": "1234123",
+      "address": "qwerqwerq",
+      "cart": [
+        {
+          "id": "131",
+          "name": "Laptop",
+          "price": 1249.99,
+          "category": "Computers",
+          "image": "/assets/macbook.png",
+          "quantity": 1,
+          "totalPrice": 1249.99
+        }
+      ]
+    },
+    {
+      "id": "58f1",
+      "name": "john",
+      "email": "maznatser@ukr.net",
+      "phone": "1234123",
+      "address": "qwerqwerq",
+      "cart": [
+        {
+          "id": "131",
+          "name": "Laptop",
+          "price": 1249.99,
+          "category": "Computers",
+          "image": "/assets/macbook.png",
+          "quantity": 1,
+          "totalPrice": 1249.99
+        }
+      ]
+    },
+    {
+      "id": "69df",
+      "name": "john",
+      "email": "jhbjbhjk@hjb",
+      "phone": "78976t6",
+      "address": "hjkghv",
+      "cart": [
+        {
+          "id": "128",
+          "name": "Leather Jacket",
+          "price": 159.99,
+          "category": "Fashion",
+          "image": "/assets/jacket.png",
+          "quantity": 1,
+          "totalPrice": 159.99
+        }
+      ]
+    },
+    {
+      "id": "3116",
+      "name": "john",
+      "email": "jhbjbhjk@hjb",
+      "phone": "78976t6",
+      "address": "hjkghv",
+      "cart": [
+        {
+          "id": "128",
+          "name": "Leather Jacket",
+          "price": 159.99,
+          "category": "Fashion",
+          "image": "/assets/jacket.png",
+          "quantity": 1,
+          "totalPrice": 159.99
+        }
+      ]
+    }
+  ]
+}
